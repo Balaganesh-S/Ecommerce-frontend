@@ -1,0 +1,36 @@
+.itemCard {
+  display: grid;
+  margin-left: 40px;
+  margin-top: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  color: powderblue;
+  background-color: smokewhite;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  height: 125px;
+  padding: 20px;
+  width: 90vw;
+  border-radius: 5px;
+}
+
+.itemCard img {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  width: 75px; /* Fixed width */
+  height: 75px; /* Fixed height */
+  object-fit: cover; /* Ensures images fill the box */
+  border-radius: 8px;
+}
+
+.itemName {
+  color: black;
+}
+.itemPrice {
+  color: black;
+}
+.itemQuantity {
+  color: black;
+  grid-row-start: 2;
+  grid-column-start: 3;
+}

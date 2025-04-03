@@ -1,0 +1,44 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 20px;
+  padding-right: 270px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 60vw;
+  gap: 10px 5px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+.container input {
+  height: 40px;
+  width: 300px;
+  padding-left: 15px;
+}
+
+.container textarea {
+  grid-row-start: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  height: 100px;
+  width: 615px;
+}
+
+.buttons {
+  grid-row-start: 5;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.container button {
+  background-color: #273fee;
+  color: white;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+}

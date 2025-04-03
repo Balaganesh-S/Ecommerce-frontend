@@ -1,0 +1,25 @@
+.category {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* position: fixed; */
+  top: 8vh;
+  left: 0;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  width: 100vw;
+  z-index: -1;
+}
+
+.category button {
+  width: 15vw;
+  height: 5vh;
+  background-color: transparent;
+  border: none;
+}
+
+.category button:hover {
+  color: blue;
+}

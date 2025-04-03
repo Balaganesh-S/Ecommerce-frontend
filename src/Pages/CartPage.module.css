@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.checkout {
+  width: 70vw;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+
+  display: flex; /* Ensure content inside aligns properly */
+  align-items: center; /* Center content vertically */
+  background: transparent;
+  height: 100px;
+}
+
+.checkout button {
+  background-color: #ff5733; /* Highlight color for remove button */
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: 30px;
+  width: 100px; /* Fixed width for button */
+  height: 40px; /* Fixed height for button */
+}

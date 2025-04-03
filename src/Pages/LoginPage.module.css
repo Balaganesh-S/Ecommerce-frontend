@@ -1,0 +1,89 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 50vw;
+}
+
+.poster {
+  width: 20vw;
+  height: 65vh;
+  display: flex;
+  background-color: rgb(255, 94, 36);
+  padding-top: 60px;
+  padding-left: 30px;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.poster h1 {
+  color: white;
+}
+
+.poster p {
+  font-size: 16px;
+  color: white;
+}
+
+.form {
+  width: 30vw;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  padding-left: 40px;
+  gap: 20px;
+  background-color: whitesmoke;
+}
+
+.form input {
+  width: 90%;
+  padding: 5px;
+  height: 6vh;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+}
+
+.form input:focus {
+  outline: none;
+  border-bottom: 1px solid rgb(255, 94, 36);
+}
+
+.form button {
+  width: 90%;
+  height: 6vh;
+  font-size: 16px;
+  background-color: rgb(255, 94, 36);
+  border: none;
+  color: white;
+}
+
+.video {
+  margin-top: 80px;
+}
+
+.register {
+  margin-top: 180px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 80px;
+}
+
+.register a {
+  text-decoration: none;
+}

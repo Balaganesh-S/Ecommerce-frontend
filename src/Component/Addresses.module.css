@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  width: 60vw;
+  flex-direction: column;
+}
+
+.addAddress {
+  display: flex;
+  padding: 20px;
+  border: 1px solid #ddd;
+  width: 60vw;
+  background-color: white;
+  font-size: 18px;
+  color: rgb(0, 89, 255);
+  margin-bottom: 30px;
+}

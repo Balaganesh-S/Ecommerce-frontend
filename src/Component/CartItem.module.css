@@ -1,0 +1,70 @@
+.cartItem {
+  display: flex;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  height: 125px;
+  width: 70vw;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.cartItem img {
+  width: 75px; /* Fixed width */
+  height: 75px; /* Fixed height */
+  object-fit: cover;
+  border-radius: 8px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.cartItemDetails {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+.cartItemName {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+.cartItemPrice {
+  font-size: 16px;
+  color: #ff5733; /* Highlight price */
+  font-weight: bold;
+  margin-top: 5px;
+}
+.cartItemQuantity {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #333;
+  margin-left: auto; /* Aligns quantity to the right */
+}
+.cartItemQuantity input {
+  width: 50px; /* Fixed width for quantity input */
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.cartItemQuantity button {
+  margin-right: 10px;
+  background-color: transparent;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.removeButton {
+  background-color: #ff5733; /* Highlight color for remove button */
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: 30px;
+}
